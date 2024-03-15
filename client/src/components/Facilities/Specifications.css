@@ -1,0 +1,31 @@
+.button-container{
+    display: flex;
+    gap: 2rem;
+    min-width: 10rem;
+    padding: 4px;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    justify-content: center;
+    align-items: center;
+    height: 100%; 
+}
+
+.back-button, .submit-button {
+    flex: 1; 
+    padding: 4px 8px;
+    border: 1px solid rgb(186, 186, 186);
+    border-radius: 4px;
+    font-weight: 600;
+    text-align: center; 
+}
+
+.back-button {
+    background-color: white;
+    color: black; 
+}
+
+.submit-button {
+    background-color: rgb(25, 181, 25);
+    color: white;
+    border-color: rgb(25, 181, 25); 
+}

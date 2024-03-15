@@ -1,0 +1,71 @@
+.car-container{
+    gap: 2rem;
+    position: relative;
+}
+
+.car-container .like{
+    position: absolute;
+    top: 3rem;right: 3rem;
+    cursor: pointer;
+}
+
+
+.car-container>img{
+    align-self: center;
+    max-height: 35rem;
+    width: 100%;
+    border-radius: 1rem;
+    object-fit: cover;
+}
+
+.car-details{
+    width: 100%;
+    gap: 2rem;
+    justify-content: space-between;
+}
+
+.car-details>div{
+    flex: 1;
+    gap: 1.5rem;
+}
+
+.car-details .left .head{
+    justify-content: space-between;
+    width: 100%;
+}
+
+.specifications{
+    gap: 1rem;
+    font-size: 0.9rem;
+    padding: 1rem;
+}
+
+.specification{
+    gap: 0.5rem;
+}
+
+.car-details .button{
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.car-details .button:hover{
+    transform: scale(1.05);
+}
+
+
+@media (max-width: 700px) {
+    .car-container>div{
+        flex-direction: column;
+    }
+    .head{
+        flex-direction: column;
+    }
+    .specifications{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .car-details>div{
+        width: 100%;
+    }
+}
