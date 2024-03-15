@@ -32,8 +32,10 @@ const Hero = () => {
             <span>Find a variety of vehicles that suit you easily</span>
             <span>Forget all difficulties in finding the best for you</span>
           </div>
-
+          {/* 
           <SearchBar filter={filter} setFilter={setFilter}/>
+
+          */}
 
           <div className="flexCenter stats">
             <div className="flexColCenter stat">
