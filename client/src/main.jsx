@@ -10,7 +10,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
       domain="dev-ewvpvgy6idiartc1.us.auth0.com"
       clientId="VmbkOeSbCTN0hBAaRlvkOkNxuhonrXMQ"
       authorizationParams={{
-        redirect_uri: "http://localhost:5173"
+        redirect_uri: "https://nostalgicar.vercel.app"
        }}
        audience="http://localhost:8000"
        scope="openid profile email"
