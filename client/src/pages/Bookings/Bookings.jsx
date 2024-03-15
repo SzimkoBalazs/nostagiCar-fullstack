@@ -45,7 +45,7 @@ const Bookings = () => {
           {
             
             bookings?.length === 0 ? (
-              <p style={{ margin: '20px', padding: '20px', fontSize: '18px', textAlign: 'center', color: '#555', background: '#f0f0f0', borderRadius: '8px' }} >You don't have any bookings for a cars .</p>
+              <p style={{ margin: '20px', padding: '20px', fontSize: '18px', textAlign: 'center', color: '#555', background: '#f0f0f0', borderRadius: '8px' }} >You don't have any bookings for a car .</p>
             ) : (
 
             data
